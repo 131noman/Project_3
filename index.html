@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <!-- Font Awesome -->
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.0/css/all.css"
+      integrity="sha384-OLYO0LymqQ+uHXELyx93kblK5YIS3B2ZfLGBmsJaUyor7CpMTBsahDHByqSuWW+q"
+      crossorigin="anonymous"
+    />
+
+
+
+
+      <!-- For Dark mode -->
+      <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+      <script type="text/javascript">
+          window.onload = function() {
+
+          function themeSwitcher() {
+              $(".dark").toggleClass("active");
+              $(".cards").toggleClass("mode");
+              $(".why-humble").toggleClass("mode");
+              $("path").toggleClass("mode");
+              $(".services").toggleClass("mode");
+              $(".dropdown-menu").toggleClass("mode");
+              $(".dropdown-item").toggleClass("mode");
+              $(".card").toggleClass("mode");
+              $(".acc").toggleClass("mode");
+              $(".explore").toggleClass("mode");
+              $(".fa-arrow-right").toggleClass("mode");
+              $(".all-4").toggleClass("mode");
+          }
+          $(document).ready(function () {
+              let theme = localStorage.getItem("theme");
+              if (theme) {
+                  if (theme === "dark") {
+                      themeSwitcher();
+                  } else {
+                      localStorage.setItem("theme", "light");
+                  }
+              }
+              $(".dark").click(function () {
+                  let theme = localStorage.getItem("theme");
+                  if (theme && theme === "dark") {
+                      themeSwitcher();
+                      localStorage.setItem("theme", "light");
+                  } else {
+                      themeSwitcher();
+                      localStorage.setItem("theme", "dark");
+                  }
+              });
+          });
+          }
+
+      </script>
+      <!-- For Dark mode end -->
+
+
+
+
+
+    <title>HUMBLE SERVERS</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="bar">
+      <div class="container">
+        <ul>
+          <li>
+            <a
+              class="login"
+              href="https://billing.humbleservers.com/clientarea.php"
+            >
+              <i class="fas fa-sign-in-alt"></i>Login</a
+            >
+          </li>
+          <li>
+            <a
+              class="login"
+              href="https://billing.humbleservers.com/register.php"
+              >SignUp</a
+            >
+          </li>
+          <li>
+            <a class="login" href="https://discord.humbleservers.com"
+              ><i class="fas fa-headset"></i>Support</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <header class="py-2 hide-nav" style="z-index: 999999">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="index.html"
+            ><img src="./images/logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-auto pt-4 pt-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Hosting
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="minecraft.html"
+                    ><img src="./images/bg.jpg" alt="" />Minecraft Hosting</a
+                  >
+                  <a class="dropdown-item" href="webandgamehosting.html"
+                    ><img src="./images/6502.jpg" alt="" />Game Hosting</a
+                  >
+
+                  <a class="dropdown-item" href="webandgamehosting.html"
+                    ><img src="./images/628.jpg" alt="" />Website Hosting</a
+                  >
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="discord.html">Discord bot</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="vps.html">VPS</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Panels
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a
+                    class="dropdown-item"
+                    href="https://billing.humbleservers.com/"
+                    >Billing Panel</a
+                  >
+                  <a
+                    class="dropdown-item"
+                    href="https://panel.humbleservers.com/auth/login"
+                    >Game Panel</a
+                  >
+                  <a
+                    class="dropdown-item"
+                    href="https://panel.humbleservers.com/auth/login"
+                    >Bot panel</a
+                  >
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="https://status.humbleservers.com"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Status
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- End navbar -->
+
+    <section class="hero">
+      <div class="container">
+        <div class="header-image">
+          <div class="title">
+            <h1>Experience Next Level Hosting</h1>
+            <p>
+              Have you ever experienced next level hosting? A host which
+              specializes in game and website host. A host that prioritize their
+              customers, and aims to provide amazing, secured, and cheap hosting
+            </p>
+            <a href="minecraft.html">
+              <button class="explore" style="color: #2057a8; font-weight: bold">
+                Explore Options
+                <i
+                  class="fas fa-arrow-right"
+
+                ></i></button
+            ></a>
+          </div>
+          <div class="img">
+            <img src="./images/server-1.png" class="img-fluid" alt="server" />
+          </div>
+        </div>
+      </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path id="fill"
+          fill="white"
+          fill-opacity="1"
+          d="M0,128L60,154.7C120,181,240,235,360,240C480,245,600,203,720,176C840,149,960,139,1080,144C1200,149,1320,171,1380,181.3L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <section class="why-humble">
+      <div class="heading">
+        <h1>Why <span> Humble Servers </span> ?</h1>
+      </div>
+
+      <div class="features container">
+        <div class="first cards">
+          <h4 class="icon-box">
+            <i class="fas fa-bolt"></i>
+          </h4>
+          <h1>Blazing Fast</h1>
+          <p>
+            With gigabyte connection, our blazing fast hosting offers a
+            substantial performance boost!
+          </p>
+        </div>
+        <div class="second cards">
+          <h4 class="icon-box">
+            <i class="fas fa-shield-alt"></i>
+          </h4>
+          <h1>DDoS Protection</h1>
+          <p>
+            All of our servers are equipped with 24/7 DDoS Protection protecting
+            all of our customers.
+          </p>
+        </div>
+        <div class="third cards">
+          <h4 class="icon-box">
+            <i class="fas fa-headset"></i>
+          </h4>
+          <h1>Dedicated Support</h1>
+          <p>
+            We are always here to help and answer questions as we have numerous
+            tiers of support across multiple platforms.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="get-hosting">
+      <div class="container">
+        <div class="hosting-image">
+          <div class="img">
+            <img src="./images/122.png" class="img-fluid" />
+          </div>
+          <div class="host-title">
+            <h1>Get the best hosting for cheap prices</h1>
+            <p>
+              With robust performance our game servers are optimized and
+              supported to give you a peace in mind when in comes in terms of
+              hosting
+            </p>
+            <p>
+              <span><i class="fas fa-check-square"></i></span>
+              3 way support, discord, livechat and billing tickets ensures that
+              you get the support that you need.
+            </p>
+            <p>
+              <span><i class="fas fa-check-square"></i></span>
+              Consisting of Robust Processors, our game servers will not cause
+              any disappointment to you or your revolutionary community.
+            </p>
+            <p>
+              <span><i class="fas fa-check-square"></i></span>
+              3 way support, discord, livechat and billing tickets ensures that
+              you get the support that you need.
+            </p>
+            <a href="minecraft.html"
+              ><button
+                class="second-btn explore"
+                style="color: #2057a8; font-weight: bold"
+              >
+                Explore Options
+                <i
+                  class="fas fa-arrow-right"
+
+                ></i></button
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="heading">
+        <h1 class="py-5">Our Services</h1>
+      </div>
+      <div class="serve container">
+        <div class="first all-4">
+          <div class="imagee 1">
+            <img
+              src="./images/444.jpg"
+              width="100%"
+              alt=""
+              class="image-fluid"
+            />
+          </div>
+          <h1>Game Hosting</h1>
+          <p>
+            Host your favorite game server with the best build for top notch
+            game servers!
+          </p>
+          <p class="start">Starting at</p>
+          <p class="price">
+            <sup>$</sup><strong>5.00</strong> <span>/mo</span>
+          </p>
+
+          <div class="btns">
+            <button class="plans">
+              <a href="webandgamehosting.html" style="color: white"
+                >View Plans</a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="second all-4">
+          <div class="imagee 2">
+            <img
+              src="./images/binary-1536651_640.jpg"
+              width="100%"
+              alt=""
+              class="image-fluid"
+            />
+          </div>
+          <h1>VPS Hosting</h1>
+          <p>
+            Full root access, powerful and feature-rich virtual private servers!
+          </p>
+          <p class="start">Starting at</p>
+          <p class="price">
+            <sup>$</sup><strong>8.00</strong> <span>/mo</span>
+          </p>
+          <div class="btns">
+            <button class="plans">
+              <a href="vps.html" style="color: white">View Plans</a>
+            </button>
+          </div>
+        </div>
+        <div class="third all-4">
+          <div class="imagee 3">
+            <img
+              src="./images/laptop-3428644_640.jpg"
+              width="100%"
+              alt=""
+              class="image-fluid"
+            />
+          </div>
+          <h1>Website Hosting</h1>
+          <p>
+            The fastest, most affordable & valuable website hosting on the
+            market!
+          </p>
+          <p class="start">Starting at</p>
+          <p class="price">
+            <sup>$</sup><strong>3.99</strong> <span>/mo</span>
+          </p>
+          <div class="btns">
+            <button class="plans">
+              <a href="webandgamehosting.html" style="color: white"
+                >View Plans</a
+              >
+            </button>
+          </div>
+        </div>
+
+        <div class="fourth all-4">
+          <div class="imagee 4">
+            <img
+              src="./images/812.jpg"
+              width="100%"
+              alt=""
+              class="image-fluid"
+            />
+          </div>
+          <h1>Discord Bot</h1>
+          <p>
+            Only the most powerful hardware provided, a powerful machine all to
+            yourself!
+          </p>
+          <p class="start">Starting at</p>
+          <p class="price">
+            <sup>$</sup><strong>0.75</strong> <span>/mo</span>
+          </p>
+          <div class="btns">
+            <button class="plans">
+              <a href="discord.html" style="color: white">View Plans</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faqs" style="margin-bottom: -50px">
+      <div class="container">
+        <h1 class="faq-title">FREQUENTLY ASKED QUESTIONS</h1>
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button
+                  class="btn btn-link"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  <span class="acc">What is Humble Servers ?</span>
+                </button>
+              </h2>
+            </div>
+
+            <div
+              id="collapseOne"
+              class="collapse"
+              aria-labelledby="headingOne"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                Humble servers is an uprising leader in Minecraft, Website, VPS
+                and Dedicated server hosting. Aiming to reach the top position,
+                we are one of the highest quality and lowest priced hosts out
+                there.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  <span class="acc"> Do you guys do transfers? </span>
+                </button>
+              </h2>
+            </div>
+            <div
+              id="collapseTwo"
+              class="collapse"
+              aria-labelledby="headingTwo"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                Yes! We have transfers for every single service, if you would
+                like us to transfer you from your old host we will do so for
+                free!
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0" >
+                <button
+                  class="btn btn-link collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  <span class="acc">Why is my server not active yet?</span>
+                </button>
+              </h2>
+            </div>
+            <div
+              id="collapseThree"
+              class="collapse"
+              aria-labelledby="headingThree"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                Depending on the service you have ordered, in rare cases it can
+                take some time for your service to be activated. Every service
+                should tell you how long it takes for it to be active, most of
+                our services have instant activation.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="mt-5">
+      <div class="container px-5">
+        <div class="row py-5">
+          <div class="col-lg-4 col-md-6 col-12 logo">
+            <img src="./images/logo.png" class="img-fluid mb-3" alt="" />
+            <p style="color: white; text-align: left">
+              Company Registration number: 12126517
+            </p>
+            <p style="color: white; text-align: left">
+              ICO Registration number: ZA783531
+            </p>
+            <p style="color: white; text-align: left">
+              85 Great Portland Street, London, England, W1W 7LT @ HUMBLE
+              INNOVATIONS LTD
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12 pl-md-5">
+            <h1 style="font-size: 32px">Support</h1>
+            <p>
+              <a href="https://discord.humbleservers.com/"
+                >Live Chat - Discord</a
+              >
+            </p>
+            <p>
+              <a
+                href="https://billing.humbleservers.com/submitticket.php?step=2&amp;deptid=1"
+                >Billing Support</a
+              >
+            </p>
+            <p><a href="#">Partnerships</a></p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <h1 style="font-size: 32px">Services</h1>
+            <p><a href="minecraft.html">Minecraft Hosting</a></p>
+            <p><a href="webandgamehosting.html">Website Hosting</a></p>
+            <p>
+              <a href="https://billing.humbleservers.com/cart.php?gid=9"
+                >Discord Bot Hosting</a
+              >
+            </p>
+          </div>
+          <div class="col-lg-2 col-md-6 col-12 solo pl-md-5 pl-lg-0">
+            <h1 style="font-size: 32px">Solutions</h1>
+            <p><a href="tos.html">Terms of Service</a></p>
+            <p><a href="privacy.html">Privacy Policy</a></p>
+            <p><a href="#">About Us</a></p>
+          </div>
+        </div>
+
+        <p class="text-center py-3 copyright" style="color: white">
+          Copyright 2018-2020 HumbleServers. All Rights Reserved.
+        </p>
+
+        <!-- dark mode -->
+        <ul class="dark">
+          <li class="dark-mode"><span>Switch to Dark Mode</span></li>
+          <li class="dark-mode"><span>Switch to Light Mode</span></li>
+        </ul>
+        <!-- dark mode end-->
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"
+    ></script>
+    <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"
+    ></script>
+    <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"
+    ></script>
+
+
+
+
+    <script>
+
+
+        $(function () {
+            let scrol = $(document).scrollTop();
+            let navHeight = $("header").outerHeight();
+
+            $(window).scroll(function () {
+                let scrolled = $(document).scrollTop();
+
+                if (scrolled < navHeight) {
+                    $("header").addClass("fix-nav");
+                } else {
+                    $("header").removeClass("fix-nav");
+                }
+
+                if (scrolled < scroll) {
+                    $("header").removeClass("fix-nav");
+                } else {
+                    $("header").addClass("fix-nav");
+                }
+                scroll = $(document).scrollTop();
+            });
+        });
+
+
+    </script>
+
+    <script
+            src="https://kit.fontawesome.com/950c39d4a3.js"
+            crossorigin="anonymous"
+    ></script>
+
+  </body>
+</html>

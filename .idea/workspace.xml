@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="60153068-ac89-4b29-9a18-423b8cae370b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1huc5eHOO1yDP3RZfsFfCcEQZ4x" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60153068-ac89-4b29-9a18-423b8cae370b" name="Default Changelist" comment="" />
+      <created>1600864246323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600864246323</updated>
+      <workItem from="1600864262876" duration="3602000" />
+      <workItem from="1601137013786" duration="2556000" />
+      <workItem from="1601394702488" duration="9372000" />
+      <workItem from="1601426995066" duration="2034000" />
+      <workItem from="1601459737881" duration="5731000" />
+      <workItem from="1601476403431" duration="1459000" />
+      <workItem from="1601486659760" duration="15694000" />
+      <workItem from="1601568227617" duration="11094000" />
+      <workItem from="1601586914076" duration="11811000" />
+      <workItem from="1601676478272" duration="6536000" />
+      <workItem from="1601758637362" duration="1751000" />
+      <workItem from="1601810805667" duration="868000" />
+      <workItem from="1602030791415" duration="1839000" />
+      <workItem from="1602040727625" duration="1010000" />
+      <workItem from="1602179297227" duration="1832000" />
+      <workItem from="1602232859796" duration="928000" />
+      <workItem from="1602242428835" duration="5131000" />
+      <workItem from="1602255580073" duration="3392000" />
+      <workItem from="1602273354674" duration="4359000" />
+      <workItem from="1602284915538" duration="633000" />
+      <workItem from="1602331314080" duration="1892000" />
+      <workItem from="1602357464949" duration="16084000" />
+      <workItem from="1602494907285" duration="3670000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="517" y="296" key="NewPhpFileDialog" timestamp="1601462291605">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="296" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1601462291605" />
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1602494985463">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602494985463" />
+  </component>
+</project>

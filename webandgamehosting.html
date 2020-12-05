@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/webandgame.css" />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/privacy.css" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.0/css/all.css"
+      integrity="sha384-OLYO0LymqQ+uHXELyx93kblK5YIS3B2ZfLGBmsJaUyor7CpMTBsahDHByqSuWW+q"
+      crossorigin="anonymous"
+    />
+
+
+    <style>
+      ul.dark {
+        position: absolute;
+        top: 525px;
+
+      }
+      @media (min-width: 320px)  and (max-width: 480px) {
+
+
+        ul.dark {
+          position: absolute !important;
+          top: 1250px !important;
+          right: 100px !important;
+        }
+
+      }
+
+    </style>
+
+    <title>Categories</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="bar">
+      <div class="container">
+        <ul>
+          <li>
+            <a
+              class="login"
+              href="https://billing.humbleservers.com/clientarea.php"
+            >
+              <i class="fas fa-sign-in-alt"></i>Login</a
+            >
+          </li>
+          <li>
+            <a
+              class="login"
+              href="https://billing.humbleservers.com/register.php"
+              >SignUp</a
+            >
+          </li>
+          <li>
+            <a class="login" href="https://discord.humbleservers.com"
+              ><i class="fas fa-headset"></i>Support</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <header class="py-2" style="z-index: 999999">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="index.html"
+            ><img src="./images/logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-auto pt-4 pt-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Hosting
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="minecraft.html"
+                    ><img src="./images/bg.jpg" alt="" />Minecraft Hosting</a
+                  >
+                  <a class="dropdown-item" href="webandgamehosting.html"
+                    ><img src="./images/6502.jpg" alt="" />Game Hosting</a
+                  >
+
+                  <a class="dropdown-item" href="webandgamehosting.html"
+                    ><img src="./images/628.jpg" alt="" />Website Hosting</a
+                  >
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="discord.html">Discord bot</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="vps.html">VPS</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Panels
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a
+                    class="dropdown-item"
+                    href="https://billing.humbleservers.com/"
+                    >Billing Panel</a
+                  >
+                  <a
+                    class="dropdown-item"
+                    href="https://panel.humbleservers.com/auth/login"
+                    >Game Panel</a
+                  >
+                  <a
+                    class="dropdown-item"
+                    href="https://panel.humbleservers.com/auth/login"
+                    >Bot panel</a
+                  >
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="https://status.humbleservers.com"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Status
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- End navbar -->
+    <div
+      class="hero-image"
+      style="background: #1160ff !important; height: 500px !important"
+    >
+      <div class="overlay"></div>
+      <div class="title">
+        <h2 class="display-1">WEB & GAME HOSTING</h2>
+      </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,192L48,181.3C96,171,192,149,288,160C384,171,480,213,576,234.7C672,256,768,256,864,240C960,224,1056,192,1152,181.3C1248,171,1344,181,1392,186.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </div>
+
+    <!--
+    <div class="curve-img" style="width: 100%; margin-top: -100px">
+      <img src="./bg.svg" alt="" />
+    </div>
+
+    -->
+    <section class="whole">
+    <main class="wrapper">
+      <div class="left-side-bar">
+        <div id="left-side-bar-box-1" class="left-side-bar-box">
+          <div class="heading">SELECT CATEGORY</div>
+          <div class="categories-item-box">
+            <div id="category-1" class="item">
+              Budget Minecraft Hosting [EU]
+            </div>
+            <div id="category-2" class="item">
+              Supreme Minecraft Hosting [EU/NA]
+            </div>
+            <div id="category-3" class="item">Game Servers</div>
+            <div id="category-4" class="item">Virtual Private Servers [EU]</div>
+            <div id="category-5" class="item">Discord Bot Hosting[EU]</div>
+            <div id="category-6" class="item">Website Hosting</div>
+          </div>
+        </div>
+        <div id="left-side-bar-box-2" class="left-side-bar-box">
+          <div class="heading">ACTIONS</div>
+          <div class="categories-item-box">
+            <div class="item">
+              <a class="view-cart"
+                style="color: black; text-decoration: none"
+                href="https://billing.humbleservers.com/cart.php?a=view"
+                >View Cart</a
+              >
+            </div>
+          </div>
+        </div>
+        <div id="left-side-bar-box-3" class="left-side-bar-box">
+          <div class="heading">CHOOSE CURRENCY</div>
+          <div class="categories-item-box">
+            <div class="item">USD</div>
+            <div class="item">EUR</div>
+            <div class="item">GBP</div>
+          </div>
+        </div>
+      </div>
+      <div class="mid-content">
+        <div id="content-heading" class="heading">Website Hosting</div>
+        <div id="category-card-1" class="cards-wrapper">
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">1GB - MC Hosting<br />$2.25 USD/Quarterly</div>
+            <div class="content">
+              <p>1024MB of Ram</p>
+              <p>Dark Themed Pterodactyl Panel</p>
+              <p>DDoS Protected</p>
+              <p>Unlimited Slots</p>
+              <p>Billed Quarterly (every 3 months)</p>
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=0"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+
+              </button>
+
+            </div>
+          </div>
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">2GB - MC Hosting<br />$4.50 USD/Quarterly</div>
+            <div class="content">
+              <p>2048MB of Ram</p>
+              <p>Dark Themed Pterodactyl Panel</p>
+              <p>DDoS Protected</p>
+              <p>Unlimited Slots</p>
+              <p>Billed Quarterly (every 3 months)</p>
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=1"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">3GB - MC Hosting<br />$6.75 USD/Quarterly</div>
+            <div class="content">
+              <p>3072MB of Ram</p>
+              <p>Dark Themed Pterodactyl Panel</p>
+              <p>DDoS Protected</p>
+              <p>Unlimited Slots</p>
+              <p>Billed Quarterly (every 3 months)</p>
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=2"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">4GB - MC Hosting<br />$3.00 USD/mo</div>
+            <div class="content">
+              <p>4096MB of Ram</p>
+              <p>Dark Themed Pterodactyl Panel</p>
+              <p>DDoS Protected</p>
+              <p>Unlimited Slots</p>
+              <p style="visibility: hidden">
+                Billed Quarterly (every 3 months)
+              </p>
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=3"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">6GB - MC Hosting<br />$4.50 USD/mo</div>
+            <div class="content">
+              <p>6144MB of Ram</p>
+              <p>Dark Themed Pterodactyl Panel</p>
+              <p>DDoS Protected</p>
+              <p>Unlimited Slots</p>
+              <p style="visibility: hidden">
+                Billed Quarterly (every 3 months)
+              </p>
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=4"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">8GB - MC Hosting<br />$6.00 USD/mo</div>
+            <div class="content">
+              <p>8192MB of Ram</p>
+              <p>Dark Themed Pterodactyl Panel</p>
+              <p>DDoS Protected</p>
+              <p>Unlimited Slots</p>
+              <p style="visibility: hidden">
+                Billed Quarterly (every 3 months)
+              </p>
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=5"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">10GB - MC Hosting<br />$7.50 USD/mo</div>
+            <div class="content">
+              <p>10240MB of Ram</p>
+              <p>Dark Themed Pterodactyl Panel</p>
+              <p>DDoS Protected</p>
+              <p>Unlimited Slots</p>
+              <p style="visibility: hidden">
+                Billed Quarterly (every 3 months)
+              </p>
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=6"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">12GB - MC Hosting<br />$9.00 USD/mo</div>
+            <div class="content">
+              <p>12288MB of Ram</p>
+              <p>Dark Themed Pterodactyl Panel</p>
+              <p>DDoS Protected</p>
+              <p>Unlimited Slots</p>
+              <p style="visibility: hidden">
+                Billed Quarterly (every 3 months)
+              </p>
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=7"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">14GB - MC Hosting<br />$10.50 USD/mo</div>
+            <div class="content">
+              <p>14336MB of Ram</p>
+              <p>Dark Themed Pterodactyl Panel</p>
+              <p>DDoS Protected</p>
+              <p>Unlimited Slots</p>
+              <p style="visibility: hidden">
+                Billed Quarterly (every 3 months)
+              </p>
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=8"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">Custom - MC Hosting<br />$12.00 USD/mo</div>
+            <div class="content">
+              <p>16384-32768MB of Ram</p>
+              <p>Dark Themed Pterodactyl Panel</p>
+              <p>DDoS Protected</p>
+              <p>Unlimited Slots</p>
+              <p style="visibility: hidden">
+                Billed Quarterly (every 3 months)
+              </p>
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=9"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- cat-2 -->
+        <div id="category-card-2" style="display: none" class="cards-wrapper">
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">
+              1GB - Supreme MC Hosting<br />$2.00 USD/mo
+            </div>
+            <div class="content">
+              <p>2666MHz DDR4 Ram</p>
+              <p>1Gbps Uplink</p>
+              <p>480Gbps DDoS Protected</p>
+              <p>Unlimited Slots</p>
+              <p>Unmetered NVME Storage[50GB SoftCap]</p>
+
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=0"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">
+              2GB - Supreme MC Hosting<br />$4.00 USD/mo
+            </div>
+            <div class="content">
+              <p>2666MHz DDR4 Ram</p>
+              <p>1Gbps Uplink</p>
+              <p>480Gbps DDoS Protected</p>
+              <p>Unlimited Slots</p>
+              <p>Unmetered NVME Storage[50GB SoftCap]</p>
+
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=1"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">
+              3GB - Supreme MC Hosting<br />$6.00 USD/mo
+            </div>
+            <div class="content">
+              <p>2666MHz DDR4 Ram</p>
+              <p>1Gbps Uplink</p>
+              <p>480Gbps DDoS Protected</p>
+              <p>Unlimited Slots</p>
+              <p>Unmetered NVME Storage[50GB SoftCap]</p>
+
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=2"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">
+              4GB - Supreme MC Hosting<br />$8.00 USD/mo
+            </div>
+            <div class="content">
+              <p>2666MHz DDR4 Ram</p>
+              <p>1Gbps Uplink</p>
+              <p>480Gbps DDoS Protected</p>
+              <p>Unlimited Slots</p>
+              <p>Unmetered NVME Storage[50GB SoftCap]</p>
+
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=3"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">
+              6GB - Supreme MC Hosting<br />$12.00 USD/mo
+            </div>
+            <div class="content">
+              <p>2666MHz DDR4 Ram</p>
+              <p>1Gbps Uplink</p>
+              <p>480Gbps DDoS Protected</p>
+              <p>Unlimited Slots</p>
+              <p>Unmetered NVME Storage[50GB SoftCap]</p>
+
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=4"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">
+              8GB - Supreme MC Hosting<br />$16.00 USD/mo
+            </div>
+            <div class="content">
+              <p>2666MHz DDR4 Ram</p>
+              <p>1Gbps Uplink</p>
+              <p>480Gbps DDoS Protected</p>
+              <p>Unlimited Slots</p>
+              <p>Unmetered NVME Storage[50GB SoftCap]</p>
+
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=5"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">
+              10GB - Supreme MC Hosting<br />$20.00 USD/mo
+            </div>
+            <div class="content">
+              <p>2666MHz DDR4 Ram</p>
+              <p>1Gbps Uplink</p>
+              <p>480Gbps DDoS Protected</p>
+              <p>Unlimited Slots</p>
+              <p>Unmetered NVME Storage[50GB SoftCap]</p>
+
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=6"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">
+              12GB - Supreme MC Hosting<br />$24.00 USD/mo
+            </div>
+            <div class="content">
+              <p>2666MHz DDR4 Ram</p>
+              <p>1Gbps Uplink</p>
+              <p>480Gbps DDoS Protected</p>
+              <p>Unlimited Slots</p>
+              <p>Unmetered NVME Storage[50GB SoftCap]</p>
+
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=7"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">
+              14GB - Supreme MC Hosting<br />$28.00 USD/mo
+            </div>
+            <div class="content">
+              <p>2666MHz DDR4 Ram</p>
+              <p>1Gbps Uplink</p>
+              <p>480Gbps DDoS Protected</p>
+              <p>Unlimited Slots</p>
+              <p>Unmetered NVME Storage[50GB SoftCap]</p>
+
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=8"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">
+              Custom - Supreme MC Hosting<br />$32.00 USD/mo
+            </div>
+            <div class="content">
+              <p>2666MHz DDR4 Ram</p>
+              <p>1Gbps Uplink</p>
+              <p>480Gbps DDoS Protected</p>
+              <p>Unlimited Slots</p>
+              <p>Unmetered NVME Storage[50GB SoftCap]</p>
+
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=9"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- cat-3 -->
+        <div id="category-card-3" style="display: none" class="cards-wrapper">
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading" style="font-size: 16px">
+              Counter-Strike: Global Offensive <br />$5.00 USD/mo
+            </div>
+            <div class="content">
+              <p>Ryzen 9 3900</p>
+              <p>2666MHz DDR4 Ram</p>
+              <p>1Gbps Uplink</p>
+              <p>480Gbps DDoS Protected</p>
+              <p>Unlimited Slots</p>
+              <p>Unmetered NVME Storage[30GB SoftCap]</p>
+
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=10"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading" style="font-size: 16px">
+              Garry's Mod <br />$5.00 USD/mo
+            </div>
+            <div class="content">
+              <p>Ryzen 9 3900</p>
+              <p>2666MHz DDR4 Ram</p>
+              <p>1Gbps Uplink</p>
+              <p>480Gbps DDoS Protected</p>
+              <p>Unlimited Slots</p>
+              <p>Unmetered NVME Storage[30GB SoftCap]</p>
+
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=10"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- cat 4 -->
+        <div id="category-card-4" style="display: none" class="cards-wrapper">
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">4GB Budget VPS[KVM] <br />$8.00 USD/mo</div>
+            <div class="content">
+              <p>[Ryzen 5 3600]</p>
+              <p>1 CPU vCores</p>
+              <p>4 GB DDR4 memory</p>
+              <p>25GB SSD NVME</p>
+              <p>250Mbps Uplink</p>
+              <p>Unlimited bandwidth</p>
+              <p>1 Dedicated IP</p>
+              <p>Virtualizor Panel</p>
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=add&pid=81"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">8GB Budget VPS[KVM] <br />$16.00 USD/mo</div>
+            <div class="content">
+              <p>[Ryzen 5 3600]</p>
+              <p>2 CPU vCores</p>
+              <p>8 GB DDR4 memory</p>
+              <p>50GB SSD NVME</p>
+              <p>250Mbps Uplink</p>
+              <p>Unlimited bandwidth</p>
+              <p>1 Dedicated IP</p>
+              <p>Virtualizor Panel</p>
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=11"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">16GB Budget VPS[KVM] <br />$32.00 USD/mo</div>
+            <div class="content">
+              <p>[Ryzen 5 3600]</p>
+              <p>4 CPU vCores</p>
+              <p>16 GB DDR4 memory</p>
+              <p>100GB SSD NVME</p>
+              <p>500Mbps Uplink</p>
+              <p>Unlimited bandwidth</p>
+              <p>1 Dedicated IP</p>
+              <p>Virtualizor Panel</p>
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=12"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">20GB Budget VPS[KVM] <br />$40.00 USD/mo</div>
+            <div class="content">
+              <p>[Ryzen 5 3600]</p>
+              <p>6 CPU vCores</p>
+              <p>20 GB DDR4 memory</p>
+              <p>125GB SSD NVME</p>
+              <p>500Mbps Uplink</p>
+              <p>Unlimited bandwidth</p>
+              <p>1 Dedicated IP</p>
+              <p>Virtualizor Panel</p>
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=13"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- cat 5 -->
+        <div id="category-card-5" style="display: none" class="cards-wrapper">
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">
+              Bot Hosting - 256MB <br />$2.25 USD/Quarterly
+            </div>
+            <div class="content">
+              <p>256MB Ram</p>
+              <p>5GB NVME Disk Space</p>
+              <p>Unmetered Bandwidth</p>
+              <p>DDoS Protected</p>
+              <p>Pterodactyl Panel with SFTP Access</p>
+              <p>Billed Quarterly (every 3 months)</p>
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=14"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">
+              Bot Hosting - 512MB <br />$3.75 USD/Quarterly
+            </div>
+            <div class="content">
+              <p>512MB Ram</p>
+              <p>10GB NVME Disk Space</p>
+              <p>Unmetered Bandwidth</p>
+              <p>DDoS Protected</p>
+              <p>Pterodactyl Panel with SFTP Access</p>
+              <p>Billed Quarterly (every 3 months)</p>
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=17"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">Bot Hosting - 768MB <br />$1.75 USD/mo</div>
+            <div class="content">
+              <p>768MB Ram</p>
+              <p>15GB NVME Disk Space</p>
+              <p>Unmetered Bandwidth</p>
+              <p>DDoS Protected</p>
+              <p>Pterodactyl Panel with SFTP Access</p>
+              <p style="visibility: hidden">
+                Billed Quarterly (every 3 months)
+              </p>
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=15"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">Bot Hosting - 1024MB <br />$2.00 USD/mon</div>
+            <div class="content">
+              <p>1024MB Ram</p>
+              <p>20GB NVME Disk Space</p>
+              <p>Unmetered Bandwidth</p>
+              <p>DDoS Protected</p>
+              <p>Pterodactyl Panel with SFTP Access</p>
+              <p style="visibility: hidden">
+                Billed Quarterly (every 3 months)
+              </p>
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=confproduct&i=16"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- cat 6 -->
+        <div id="category-card-6" style="display: none" class="cards-wrapper">
+          <div class="card-box">
+            <div class="bg-image">
+              <div class="bg-color"></div>
+              <img src="./card.svg" alt="" />
+            </div>
+            <div class="heading">
+              Unlimited Website Hosting <br />$3.99 USD/mo
+            </div>
+            <div class="content">
+              <p>Unlimited SSD Storage</p>
+              <p>Unlimited Monthly Bandwidth</p>
+              <p>Unlimited FTP Accounts</p>
+              <p>Unlimited Email Accounts</p>
+              <p>Unlimited MySQL Databases</p>
+              <p>Unlimited Subdomains</p>
+              <p>Let's Encrypt SSL</p>
+              <p>cPanel Access</p>
+              <button class="order-now-btn">
+                <a
+                  href="https://billing.humbleservers.com/cart.php?a=add&pid=3"
+                  style="color: white; text-decoration: none"
+                  >Order Now</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+      <br>
+      <br>
+    </section>
+    <footer  style="padding-top: 100px !important; margin-top: -50px">
+      <div class="container px-5">
+        <div class="row py-5">
+          <div class="col-lg-4 col-md-6 col-12 logo">
+            <img src="./images/logo.png" class="img-fluid mb-3" alt="" />
+            <p style="color: white; text-align: left">
+              Company Registration number: 12126517
+            </p>
+            <p style="color: white; text-align: left">
+              ICO Registration number: ZA783531
+            </p>
+            <p style="color: white; text-align: left">
+              85 Great Portland Street, London, England, W1W 7LT @ HUMBLE
+              INNOVATIONS LTD
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12 pl-md-5">
+            <h1 style="font-size: 32px">Support</h1>
+            <p>
+              <a href="https://discord.humbleservers.com/"
+                >Live Chat - Discord</a
+              >
+            </p>
+            <p>
+              <a
+                href="https://billing.humbleservers.com/submitticket.php?step=2&amp;deptid=1"
+                >Billing Support</a
+              >
+            </p>
+            <p><a href="#">Partnerships</a></p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <h1 style="font-size: 32px">Services</h1>
+            <p><a href="minecraft.html">Minecraft Hosting</a></p>
+            <p><a href="webandgamehosting.html">Website Hosting</a></p>
+            <p>
+              <a href="https://billing.humbleservers.com/cart.php?gid=9"
+                >Discord Bot Hosting</a
+              >
+            </p>
+          </div>
+          <div class="col-lg-2 col-md-6 col-12 solo pl-md-5 pl-lg-0">
+            <h1 style="font-size: 32px">Solutions</h1>
+            <p><a href="tos.html">Terms of Service</a></p>
+            <p><a href="privacy.html">Privacy Policy</a></p>
+            <p><a href="#">About Us</a></p>
+          </div>
+        </div>
+        <p class="text-center py-3 copyright" style="color: white">
+          Copyright 2018-2020 HumbleServers. All Rights Reserved.
+        </p>
+        <!-- dark mode -->
+        <ul class="dark">
+          <li class="dark-mode"><span>Switch to Dark Mode</span></li>
+          <li class="dark-mode"><span>Switch to Light Mode</span></li>
+        </ul>
+        <!-- dark mode end-->
+
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./js/script.js"></script>
+    <script>
+      $(function () {
+        let scrol = $(document).scrollTop();
+        let navHeight = $("header").outerHeight();
+
+        $(window).scroll(function () {
+          let scrolled = $(document).scrollTop();
+
+          if (scrolled < navHeight) {
+            $("header").addClass("fix-nav");
+          } else {
+            $("header").removeClass("fix-nav");
+          }
+
+          if (scrolled < scroll) {
+            $("header").removeClass("fix-nav");
+          } else {
+            $("header").addClass("fix-nav");
+          }
+          scroll = $(document).scrollTop();
+        });
+      });
+    </script>
+    <!-- For Dark mode -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+      function themeSwitcher() {
+        $(".dark").toggleClass("active");
+        $("path").toggleClass("mode");
+        $(".dropdown-menu").toggleClass("mode");
+        $(".dropdown-item").toggleClass("mode");
+        $(".whole").toggleClass("mode");
+        $(".view-cart").toggleClass("mode");
+        $(".cards-wrapper").toggleClass("mode");
+        $(".card-box").toggleClass("mode");
+        $(".content").toggleClass("mode");
+        $(".categories-item-box").toggleClass("mode");
+      }
+      $(document).ready(function () {
+        let theme = localStorage.getItem("theme");
+        if (theme) {
+          if (theme === "dark") {
+            themeSwitcher();
+          } else {
+            localStorage.setItem("theme", "light");
+          }
+        }
+        $(".dark").click(function () {
+          let theme = localStorage.getItem("theme");
+          if (theme && theme === "dark") {
+            themeSwitcher();
+            localStorage.setItem("theme", "light");
+          } else {
+            themeSwitcher();
+            localStorage.setItem("theme", "dark");
+          }
+        });
+      });
+    </script>
+    <!-- For Dark mode end -->
+  </body>
+</html>

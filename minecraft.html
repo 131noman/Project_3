@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/minecraft.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.0/css/all.css"
+      integrity="sha384-OLYO0LymqQ+uHXELyx93kblK5YIS3B2ZfLGBmsJaUyor7CpMTBsahDHByqSuWW+q"
+      crossorigin="anonymous"
+    />
+
+    <title>Minecraft Hosting</title>
+
+    <style>
+      .pack {
+        height: 280px;
+      }
+      ul.dark{
+        position: absolute;
+        top: 575px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="bar" style="background-color: #1160ff !important">
+      <div class="container">
+        <ul>
+          <li>
+            <a
+              class="login"
+              href="https://billing.humbleservers.com/clientarea.php"
+            >
+              <i class="fas fa-sign-in-alt"></i>Login</a
+            >
+          </li>
+          <li>
+            <a
+              class="login"
+              href="https://billing.humbleservers.com/register.php"
+              >SignUp</a
+            >
+          </li>
+          <li>
+            <a class="login" href="https://discord.humbleservers.com"
+              ><i class="fas fa-headset"></i>Support</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <header class="py-2" style="z-index: 999999">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="index.html"
+            ><img src="./images/logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-auto pt-4 pt-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Hosting
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="minecraft.html"
+                    ><img src="./images/bg.jpg" alt="" />Minecraft Hosting</a
+                  >
+                  <a class="dropdown-item" href="webandgamehosting.html"
+                    ><img src="./images/6502.jpg" alt="" />Game Hosting</a
+                  >
+
+                  <a class="dropdown-item" href="webandgamehosting.html"
+                    ><img src="./images/628.jpg" alt="" />Website Hosting</a
+                  >
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="discord.html">Discord bot</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="vps.html">VPS</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Panels
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a
+                    class="dropdown-item"
+                    href="https://billing.humbleservers.com/"
+                    >Billing Panel</a
+                  >
+                  <a
+                    class="dropdown-item"
+                    href="https://panel.humbleservers.com/auth/login"
+                    >Game Panel</a
+                  >
+                  <a
+                    class="dropdown-item"
+                    href="https://panel.humbleservers.com/auth/login"
+                    >Bot panel</a
+                  >
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="https://status.humbleservers.com"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Status
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- End navbar -->
+
+    <div class="hero-image">
+      <img src="./images/bg.jpg" alt="" style="width: 100%" class="img-fluid" />
+      <div class="overlay"></div>
+      <div class="title">
+        <h2 class="display-1">MINECRAFT</h2>
+        <h2>SERVER HOSTING</h2>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,192L48,181.3C96,171,192,149,288,160C384,171,480,213,576,234.7C672,256,768,256,864,240C960,224,1056,192,1152,181.3C1248,171,1344,181,1392,186.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </div>
+
+    <section class="packages">
+      <h1 class="py-5">
+        <span class="pack-text" style="color: #186ec5 !important">PACKAGES</span>
+      </h1>
+
+      <div class="packages-type">
+        <div class="budget">
+          <center>
+            <p
+              style="
+                font-size: 40px;
+                color: white !important;
+                z-index: 999;
+                position: relative;
+                border-radius: 2px;
+                border-bottom: 4px solid white;
+                display: inline-block;
+              "
+            >
+              Budget
+            </p>
+          </center>
+          <div class="svg"></div>
+
+          <!--
+      <div class="budget-title title">
+        <p>BUDGET</p>
+        <p>$ 0.75/GB/mo</p>
+      </div>
+-->
+
+          <br />
+          <br />
+          <br />
+          <br />
+
+          <div class="budget-disc">
+            <p>AMD Ryzen 360 [EU]</p>
+            <p>20 GB NVME</p>
+            <p>2 Free Databases</p>
+            <p>Not Recmonded for 1.13+</p>
+          </div>
+        </div>
+        <div class="premium">
+          <center>
+            <p
+              style="
+                font-size: 40px;
+                color: white !important;
+                z-index: 999;
+                position: relative;
+                border-radius: 2px;
+                border-bottom: 4px solid white;
+                display: inline-block;
+              "
+            >
+              Premium
+            </p>
+          </center>
+          <div class="svg"></div>
+
+          <!--
+      <div class="Premium-title title">
+        <p>PREMIUM</p>
+        <p>$ 2.00/GB/mo</p>
+      </div>
+-->
+          <br />
+          <br />
+          <br />
+          <br />
+          <div class="budget-disc">
+            <p>
+              AMD Ryzen 9 3900 [EU]/ <br />
+              AMD Ryzen 7 3800 [NA]
+            </p>
+            <p>20 GB NVME</p>
+            <p>2 Free Databases</p>
+            <p>Not Recmonded for 1.13+</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Packages Detail -->
+
+    <section class="packages-detail">
+      <div class="choose">
+        <h1 class="p-detail__title">
+          <span class="left active">BUDGET</span>
+          <span>
+            <input type="checkbox" name="" id="" />
+          </span>
+          <span class="right hide-plan">PREMIUM</span>
+        </h1>
+      </div>
+      <div class="countries">
+        <div class="budget-countries text-center pt-5">
+          <button class="btn eur act-budget" style="width: 170px">
+            Europe
+          </button>
+          <button class="btn n-am">North America</button>
+        </div>
+        <div class="premium-countries text-center d-none pt-5">
+          <button class="btn eur act-budget" style="width: 170px">
+            Europe
+          </button>
+          <button class="btn n-am">North America</button>
+          <button class="btn asia" style="width: 170px">Asia</button>
+        </div>
+      </div>
+
+      <!-- Budget -->
+      <div class="budget_ packages-info container py-5">
+
+
+        <div class="pack">
+          <div class="Pack-1-title title">
+            <div class="pk-svg">
+              <h3>1 GB DDR4 Ram</h3>
+              <p class="price-bud-eu">$0.75 USD/mo</p>
+              <p class="price-bud__n-am d-none">$0 USD/mo</p>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                  fill="#fff"
+                  fill-opacity="1"
+                  d="M0,160L60,181.3C120,203,240,245,360,266.7C480,288,600,288,720,256C840,224,960,160,1080,149.3C1200,139,1320,181,1380,202.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="pack-1-disc disc">
+            <p>Unlimited Slots</p>
+
+            <p>Instant Deployment</p>
+            <button class="my-4 bud-ob-eu">
+              <a href="humbleservers.com/package-bud-eu-1gb">Order Now </a>
+            </button>
+            <button class="my-4 bud-ob-na d-none">
+              <a href="humbleservers.com/package-bud-na-1gb">Order Now </a>
+            </button>
+          </div>
+        </div>
+        <div class="pack">
+          <div class="Pack-1-title title">
+            <div class="pk-svg">
+              <h3>2 GB DDR4 Ram</h3>
+              <p class="price-bud-eu">$1.50 USD/mo</p>
+              <p class="price-bud__n-am d-none">$0 USD/mo</p>
+
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                  fill="#fff"
+                  fill-opacity="1"
+                  d="M0,160L60,181.3C120,203,240,245,360,266.7C480,288,600,288,720,256C840,224,960,160,1080,149.3C1200,139,1320,181,1380,202.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="pack-1-disc disc">
+            <p>Unlimited Slots</p>
+
+            <p>Instant Deployment</p>
+            <button class="my-4 bud-ob-eu">
+              <a href="humbleservers.com/package-bud-eu-2gb">Order Now </a>
+            </button>
+            <button class="my-4 bud-ob-na d-none">
+              <a href="humbleservers.com/package-bud-na-2gb">Order Now </a>
+            </button>
+          </div>
+        </div>
+        <div class="pack">
+          <div class="Pack-1-title title">
+            <div class="pk-svg">
+              <h3>3 GB DDR4 Ram</h3>
+              <p class="price-bud-eu">$2.25 USD/mo</p>
+              <p class="price-bud__n-am d-none">$0 USD/mo</p>
+
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                  fill="#fff"
+                  fill-opacity="1"
+                  d="M0,160L60,181.3C120,203,240,245,360,266.7C480,288,600,288,720,256C840,224,960,160,1080,149.3C1200,139,1320,181,1380,202.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="pack-1-disc disc">
+            <p>Unlimited Slots</p>
+
+            <p>Instant Deployment</p>
+            <button class="my-4 bud-ob-eu">
+              <a href="humbleservers.com/package-bud-eu-3gb">Order Now </a>
+            </button>
+            <button class="my-4 bud-ob-na d-none">
+              <a href="humbleservers.com/package-bud-na-3gb">Order Now </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="pack">
+          <div class="Pack-1-title title">
+            <div class="pk-svg">
+              <h3>4 GB DDR4 Ram</h3>
+              <p class="price-bud-eu">$3.00 USD/mo</p>
+              <p class="price-bud__n-am d-none">$0 USD/mo</p>
+
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                  fill="#fff"
+                  fill-opacity="1"
+                  d="M0,160L60,181.3C120,203,240,245,360,266.7C480,288,600,288,720,256C840,224,960,160,1080,149.3C1200,139,1320,181,1380,202.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="pack-1-disc disc">
+            <p>Unlimited Slots</p>
+
+            <p>Instant Deployment</p>
+            <button class="my-4 bud-ob-eu">
+              <a href="humbleservers.com/package-bud-eu-4gb">Order Now </a>
+            </button>
+            <button class="my-4 bud-ob-na d-none">
+              <a href="humbleservers.com/package-bud-na-4gb">Order Now </a>
+            </button>
+            <!--
+            <button class="my-4 bud-ob-na d-none">
+              <a
+                      href="budget order btn-NA"
+              >Order Now na
+              </a>
+            </button>
+            -->
+          </div>
+        </div>
+
+        <div class="pack">
+          <div class="Pack-1-title title">
+            <div class="pk-svg">
+              <h3>6 GB DDR4 Ram</h3>
+              <p class="price-bud-eu">$4.50 USD/mo</p>
+              <p class="price-bud__n-am d-none">$0 USD/mo</p>
+
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                  fill="#fff"
+                  fill-opacity="1"
+                  d="M0,160L60,181.3C120,203,240,245,360,266.7C480,288,600,288,720,256C840,224,960,160,1080,149.3C1200,139,1320,181,1380,202.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="pack-1-disc disc">
+            <p>Unlimited Slots</p>
+
+            <p>Instant Deployment</p>
+            <button class="my-4 bud-ob-eu">
+              <a href="humbleservers.com/package-bud-eu-6gb">Order Now </a>
+            </button>
+            <button class="my-4 bud-ob-na d-none">
+              <a href="humbleservers.com/package-bud-na-6gb">Order Now </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="pack">
+          <div class="Pack-1-title title">
+            <div class="pk-svg">
+              <h3>8 GB DDR4 Ram</h3>
+              <p class="price-bud-eu">$6.00 USD/mo</p>
+              <p class="price-bud__n-am d-none">$0 USD/mo</p>
+
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                  fill="#fff"
+                  fill-opacity="1"
+                  d="M0,160L60,181.3C120,203,240,245,360,266.7C480,288,600,288,720,256C840,224,960,160,1080,149.3C1200,139,1320,181,1380,202.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="pack-1-disc disc">
+            <p>Unlimited Slots</p>
+
+            <p>Instant Deployment</p>
+            <button class="my-4 bud-ob-eu">
+              <a href="humbleservers.com/package-bud-eu-8gb">Order Now </a>
+            </button>
+            <button class="my-4 bud-ob-na d-none">
+              <a href="humbleservers.com/package-bud-eu-8gb">Order Now </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="pack">
+          <div class="Pack-1-title title">
+            <div class="pk-svg">
+              <h3>10 GB DDR4 Ram</h3>
+              <p class="price-bud-eu">$7.50 USD/mo</p>
+              <p class="price-bud__n-am d-none">$0 USD/mo</p>
+
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                  fill="#fff"
+                  fill-opacity="1"
+                  d="M0,160L60,181.3C120,203,240,245,360,266.7C480,288,600,288,720,256C840,224,960,160,1080,149.3C1200,139,1320,181,1380,202.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="pack-1-disc disc">
+            <p>Unlimited Slots</p>
+
+            <p>Instant Deployment</p>
+            <button class="my-4 bud-ob-eu">
+              <a href="humbleservers.com/package-bud-eu-4gb">Order Now </a>
+            </button>
+            <button class="my-4 bud-ob-na d-none">
+              <a href="humbleservers.com/package-bud-na-10gb">Order Now </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="pack">
+          <div class="Pack-1-title title">
+            <div class="pk-svg">
+              <h3>12 GB DDR4 Ram</h3>
+              <p class="price-bud-eu">$9.00 USD/mo</p>
+              <p class="price-bud__n-am d-none">$0 USD/mo</p>
+
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                  fill="#fff"
+                  fill-opacity="1"
+                  d="M0,160L60,181.3C120,203,240,245,360,266.7C480,288,600,288,720,256C840,224,960,160,1080,149.3C1200,139,1320,181,1380,202.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="pack-1-disc disc">
+            <p>Unlimited Slots</p>
+
+            <p>Instant Deployment</p>
+            <button class="my-4 bud-ob-eu">
+              <a href="humbleservers.com/package-bud-eu-12gb">Order Now </a>
+            </button>
+            <button class="my-4 bud-ob-na d-none">
+              <a href="humbleservers.com/package-bud-eu-12gb">Order Now </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="pack">
+          <div class="Pack-1-title title">
+            <div class="pk-svg">
+              <h3>14 GB DDR4 Ram</h3>
+              <p class="price-bud-eu">$10.50 USD/mo</p>
+              <p class="price-bud__n-am d-none">$0 USD/mo</p>
+
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                  fill="#fff"
+                  fill-opacity="1"
+                  d="M0,160L60,181.3C120,203,240,245,360,266.7C480,288,600,288,720,256C840,224,960,160,1080,149.3C1200,139,1320,181,1380,202.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="pack-1-disc disc">
+            <p>Unlimited Slots</p>
+
+            <p>Instant Deployment</p>
+            <button class="my-4 bud-ob-eu">
+              <a href="humbleservers.com/package-bud-eu-14gb">Order Now </a>
+            </button>
+            <button class="my-4 bud-ob-na d-none">
+              <a href="humbleservers.com/package-bud-na-14gb">Order Now </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="pack">
+          <div class="Pack-1-title title">
+            <div class="pk-svg">
+              <h3>16-32 GB DDR4 Ram</h3>
+              <p class="price-bud-eu">$12 - $24/mo</p>
+              <p class="price-bud__n-am d-none">$0 USD/mo</p>
+
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                  fill="#fff"
+                  fill-opacity="1"
+                  d="M0,160L60,181.3C120,203,240,245,360,266.7C480,288,600,288,720,256C840,224,960,160,1080,149.3C1200,139,1320,181,1380,202.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="pack-1-disc disc">
+            <p>Unlimited Slots</p>
+
+            <p>Instant Deployment</p>
+            <button class="my-4 bud-ob-eu">
+              <a href="humbleservers.com/package-bud-eu-16to32gb">Order Now </a>
+            </button>
+            <button class="my-4 bud-ob-na d-none">
+              <a href="humbleservers.com/package-bud-na-16to32gb">Order Now </a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Premium -->
+      <div class="premium_ current packages-info container py-5">
+        <div class="pack">
+          <div class="Pack-1-title title">
+            <div class="pk-svg">
+              <h3>1 GB DDR4 Ram</h3>
+              <p class="price-pre-eu">$2.00 USD/mo</p>
+              <p class="price-pre__n-am d-none">$0 USD/mo</p>
+              <p class="price-pre-asia d-none">$00 USD/mo</p>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                  fill="#fff"
+                  fill-opacity="1"
+                  d="M0,160L60,181.3C120,203,240,245,360,266.7C480,288,600,288,720,256C840,224,960,160,1080,149.3C1200,139,1320,181,1380,202.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="pack-1-disc disc">
+            <p>Unlimited Slots</p>
+
+            <p>Instant Deployment</p>
+            <button class="my-4 pre-ob-eu">
+              <a href="humbleservers.com/package-pre-eu-1gb">Order Now </a>
+            </button>
+            <button class="my-4 pre-ob-na">
+              <a href="humbleservers.com/package-pre-na-1gb">Order Now </a>
+            </button>
+            <button class="my-4 pre-ob-asia">
+              <a href="humbleservers.com/package-pre-asia-1gb">Order Now </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="pack">
+          <div class="Pack-1-title title">
+            <div class="pk-svg">
+              <h3>2 GB DDR4 Ram</h3>
+              <p class="price-pre-eu">$4.00 USD/mo</p>
+              <p class="price-pre__n-am d-none">$0 USD/mo</p>
+              <p class="price-pre-asia d-none">$00 USD/mo</p>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                  fill="#fff"
+                  fill-opacity="1"
+                  d="M0,160L60,181.3C120,203,240,245,360,266.7C480,288,600,288,720,256C840,224,960,160,1080,149.3C1200,139,1320,181,1380,202.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="pack-1-disc disc">
+            <p>Unlimited Slots</p>
+
+            <p>Instant Deployment</p>
+            <button class="my-4 pre-ob-eu">
+              <a href="humbleservers.com/package-pre-eu-2gb">Order Now </a>
+            </button>
+            <button class="my-4 pre-ob-na">
+              <a href="humbleservers.com/package-pre-na-2gb">Order Now </a>
+            </button>
+            <button class="my-4 pre-ob-asia">
+              <a href="humbleservers.com/package-pre-asia-2gb">Order Now </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="pack">
+          <div class="Pack-1-title title">
+            <div class="pk-svg">
+              <h3>3 GB DDR4 Ram</h3>
+              <p class="price-pre-eu">$6.00 USD/mo</p>
+              <p class="price-pre__n-am d-none">$0 USD/mo</p>
+              <p class="price-pre-asia d-none">$00 USD/mo</p>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                  fill="#fff"
+                  fill-opacity="1"
+                  d="M0,160L60,181.3C120,203,240,245,360,266.7C480,288,600,288,720,256C840,224,960,160,1080,149.3C1200,139,1320,181,1380,202.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="pack-1-disc disc">
+            <p>Unlimited Slots</p>
+
+            <p>Instant Deployment</p>
+            <button class="my-4 pre-ob-eu">
+              <a href="humbleservers.com/package-pre-eu-3gb">Order Now </a>
+            </button>
+            <button class="my-4 pre-ob-na">
+              <a href="humbleservers.com/package-pre-na-3gb">Order Now </a>
+            </button>
+            <button class="my-4 pre-ob-asia">
+              <a href="humbleservers.com/package-pre-asia-3gb">Order Now </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="pack">
+          <div class="Pack-1-title title">
+            <div class="pk-svg">
+              <h3>4 GB DDR4 Ram</h3>
+              <p class="price-pre-eu">$8.00 USD/mo</p>
+              <p class="price-pre__n-am d-none">$0 USD/mo</p>
+              <p class="price-pre-asia d-none">$00 USD/mo</p>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                  fill="#fff"
+                  fill-opacity="1"
+                  d="M0,160L60,181.3C120,203,240,245,360,266.7C480,288,600,288,720,256C840,224,960,160,1080,149.3C1200,139,1320,181,1380,202.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="pack-1-disc disc">
+            <p>Unlimited Slots</p>
+
+            <p>Instant Deployment</p>
+            <button class="my-4 pre-ob-eu">
+              <a href="humbleservers.com/package-pre-eu-4gb">Order Now </a>
+            </button>
+            <button class="my-4 pre-ob-na">
+              <a href="humbleservers.com/package-pre-na-4gb">Order Now </a>
+            </button>
+            <button class="my-4 pre-ob-asia">
+              <a href="humbleservers.com/package-pre-asia-4gb">Order Now </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="pack">
+          <div class="Pack-1-title title">
+            <div class="pk-svg">
+              <h3>6 GB DDR4 Ram</h3>
+              <p class="price-pre-eu">$12.00 USD/mo</p>
+              <p class="price-pre__n-am d-none">$0 USD/mo</p>
+              <p class="price-pre-asia d-none">$00 USD/mo</p>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                  fill="#fff"
+                  fill-opacity="1"
+                  d="M0,160L60,181.3C120,203,240,245,360,266.7C480,288,600,288,720,256C840,224,960,160,1080,149.3C1200,139,1320,181,1380,202.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="pack-1-disc disc">
+            <p>Unlimited Slots</p>
+
+            <p>Instant Deployment</p>
+            <button class="my-4 pre-ob-eu">
+              <a href="humbleservers.com/package-pre-eu-6gb">Order Now </a>
+            </button>
+            <button class="my-4 pre-ob-na">
+              <a href="humbleservers.com/package-pre-na-6gb">Order Now </a>
+            </button>
+            <button class="my-4 pre-ob-asia">
+              <a href="humbleservers.com/package-pre-asia-6gb">Order Now </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="pack">
+          <div class="Pack-1-title title">
+            <div class="pk-svg">
+              <h3>8 GB DDR4 Ram</h3>
+              <p class="price-pre-eu">$16.00 USD/mo</p>
+              <p class="price-pre__n-am d-none">$0 USD/mo</p>
+              <p class="price-pre-asia d-none">$00 USD/mo</p>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                  fill="#fff"
+                  fill-opacity="1"
+                  d="M0,160L60,181.3C120,203,240,245,360,266.7C480,288,600,288,720,256C840,224,960,160,1080,149.3C1200,139,1320,181,1380,202.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="pack-1-disc disc">
+            <p>Unlimited Slots</p>
+
+            <p>Instant Deployment</p>
+            <button class="my-4 pre-ob-eu">
+              <a href="humbleservers.com/package-pre-eu-8gb">Order Now </a>
+            </button>
+            <button class="my-4 pre-ob-na">
+              <a href="humbleservers.com/package-pre-na-8gb">Order Now </a>
+            </button>
+            <button class="my-4 pre-ob-asia">
+              <a href="humbleservers.com/package-pre-asia-8gb">Order Now </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="pack">
+          <div class="Pack-1-title title">
+            <div class="pk-svg">
+              <h3>10 GB DDR4 Ram</h3>
+              <p class="price-pre-eu">$20.00 USD/mo</p>
+              <p class="price-pre__n-am d-none">$0 USD/mo</p>
+              <p class="price-pre-asia d-none">$00 USD/mo</p>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                  fill="#fff"
+                  fill-opacity="1"
+                  d="M0,160L60,181.3C120,203,240,245,360,266.7C480,288,600,288,720,256C840,224,960,160,1080,149.3C1200,139,1320,181,1380,202.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="pack-1-disc disc">
+            <p>Unlimited Slots</p>
+
+            <p>Instant Deployment</p>
+            <button class="my-4 pre-ob-eu">
+              <a href="humbleservers.com/package-pre-eu-10gb">Order Now </a>
+            </button>
+            <button class="my-4 pre-ob-na">
+              <a href="humbleservers.com/package-pre-na-10gb">Order Now </a>
+            </button>
+            <button class="my-4 pre-ob-asia">
+              <a href="humbleservers.com/package-pre-asia-10gb">Order Now </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="pack">
+          <div class="Pack-1-title title">
+            <div class="pk-svg">
+              <h3>12 GB DDR4 Ram</h3>
+              <p class="price-pre-eu">$24.00 USD/mo</p>
+              <p class="price-pre__n-am d-none">$0 USD/mo</p>
+              <p class="price-pre-asia d-none">$00 USD/mo</p>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                  fill="#fff"
+                  fill-opacity="1"
+                  d="M0,160L60,181.3C120,203,240,245,360,266.7C480,288,600,288,720,256C840,224,960,160,1080,149.3C1200,139,1320,181,1380,202.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="pack-1-disc disc">
+            <p>Unlimited Slots</p>
+
+            <p>Instant Deployment</p>
+            <button class="my-4 pre-ob-eu">
+              <a href="humbleservers.com/package-pre-eu-12gb">Order Now </a>
+            </button>
+            <button class="my-4 pre-ob-na">
+              <a href="humbleservers.com/package-pre-na-12gb">Order Now </a>
+            </button>
+            <button class="my-4 pre-ob-asia">
+              <a href="humbleservers.com/package-pre-asia-12gb">Order Now </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="pack">
+          <div class="Pack-1-title title">
+            <div class="pk-svg">
+              <h3>14 GB DDR4 Ram</h3>
+              <p class="price-pre-eu">$28.00 USD/mo</p>
+              <p class="price-pre__n-am d-none">$0 USD/mo</p>
+              <p class="price-pre-asia d-none">$00 USD/mo</p>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                  fill="#fff"
+                  fill-opacity="1"
+                  d="M0,160L60,181.3C120,203,240,245,360,266.7C480,288,600,288,720,256C840,224,960,160,1080,149.3C1200,139,1320,181,1380,202.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="pack-1-disc disc">
+            <p>Unlimited Slots</p>
+
+            <p>Instant Deployment</p>
+            <button class="my-4 pre-ob-eu">
+              <a href="humbleservers.com/package-pre-eu-14gb">Order Now </a>
+            </button>
+            <button class="my-4 pre-ob-na">
+              <a href="humbleservers.com/package-pre-na-14gb">Order Now </a>
+            </button>
+            <button class="my-4 pre-ob-asia">
+              <a href="humbleservers.com/package-pre-asia-14gb">Order Now </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="pack">
+          <div class="Pack-1-title title">
+            <div class="pk-svg">
+              <h3>16-32 GB DDR4 Ram</h3>
+              <p class="price-pre-eu">$32 - $64/mo</p>
+              <p class="price-pre__n-am d-none">$0 USD/mo</p>
+              <p class="price-pre-asia d-none">$00 USD/mo</p>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                  fill="#fff"
+                  fill-opacity="1"
+                  d="M0,160L60,181.3C120,203,240,245,360,266.7C480,288,600,288,720,256C840,224,960,160,1080,149.3C1200,139,1320,181,1380,202.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="pack-1-disc disc">
+            <p>Unlimited Slots</p>
+
+            <!--
+      <p>Unmetered Storage </p>
+      <p>5 Free Databases </p>
+      <p>480Gbps DDoS Protection</p>
+      -->
+            <p>Instant Deployment</p>
+            <button class="my-4 pre-ob-eu">
+              <a href="humbleservers.com/package-pre-eu-16to32gb">Order Now </a>
+            </button>
+            <button class="my-4 pre-ob-na">
+              <a href="humbleservers.com/package-pre-na-16to32gb">Order Now </a>
+            </button>
+            <button class="my-4 pre-ob-asia">
+              <a href="humbleservers.com/package-pre-asia-16to32gb"
+                >Order Now
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mt-5">
+      <div class="container px-5">
+        <div class="row py-5">
+          <div class="col-lg-4 col-md-6 col-12 logo">
+            <img src="./images/logo.png" class="img-fluid mb-3" alt="" />
+            <p style="color: white; text-align: left">
+              Company Registration number: 12126517
+            </p>
+            <p style="color: white; text-align: left">
+              ICO Registration number: ZA783531
+            </p>
+            <p style="color: white; text-align: left">
+              85 Great Portland Street, London, England, W1W 7LT @ HUMBLE
+              INNOVATIONS LTD
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12 pl-md-5">
+            <h1 style="font-size: 32px">Support</h1>
+            <p>
+              <a href="https://discord.humbleservers.com/"
+                >Live Chat - Discord</a
+              >
+            </p>
+            <p>
+              <a
+                href="https://billing.humbleservers.com/submitticket.php?step=2&amp;deptid=1"
+                >Billing Support</a
+              >
+            </p>
+            <p><a href="#">Partnerships</a></p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <h1 style="font-size: 32px">Services</h1>
+            <p><a href="minecraft.html">Minecraft Hosting</a></p>
+            <p><a href="webandgamehosting.html">Website Hosting</a></p>
+            <p>
+              <a href="https://billing.humbleservers.com/cart.php?gid=9"
+                >Discord Bot Hosting</a
+              >
+            </p>
+          </div>
+          <div class="col-lg-2 col-md-6 col-12 solo pl-md-5 pl-lg-0">
+            <h1 style="font-size: 32px">Solutions</h1>
+            <p><a href="tos.html">Terms of Service</a></p>
+            <p><a href="privacy.html">Privacy Policy</a></p>
+            <p><a href="#">About Us</a></p>
+          </div>
+        </div>
+        <p class="text-center py-3 copyright" style="color: white">
+          Copyright 2018-2020 HumbleServers. All Rights Reserved.
+        </p>
+        <!-- dark mode -->
+        <ul class="dark">
+          <li class="dark-mode"><span>Switch to Dark Mode</span></li>
+          <li class="dark-mode"><span>Switch to Light Mode</span></li>
+        </ul>
+        <!-- dark mode end-->
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/main.js" defer></script>
+    <!-- For Dark mode -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+      function themeSwitcher() {
+        $(".dark").toggleClass("active");
+        $("path").toggleClass("mode");
+        $(".dropdown-menu").toggleClass("mode");
+        $(".dropdown-item").toggleClass("mode");
+        $(".packages").toggleClass("mode");
+        $(".pack").toggleClass("mode");
+        $("body").toggleClass("mode");
+        $(".right").toggleClass("package");
+        $(".left").toggleClass("package");
+        $(".countries .btn").toggleClass("country-btn");
+
+
+
+
+
+      }
+      $(document).ready(function () {
+        let theme = localStorage.getItem("theme");
+        if (theme) {
+          if (theme === "dark") {
+            themeSwitcher();
+          } else {
+            localStorage.setItem("theme", "light");
+          }
+        }
+        $(".dark").click(function () {
+          let theme = localStorage.getItem("theme");
+          if (theme && theme === "dark") {
+            themeSwitcher();
+            localStorage.setItem("theme", "light");
+          } else {
+            themeSwitcher();
+            localStorage.setItem("theme", "dark");
+          }
+        });
+      });
+    </script>
+    <!-- For Dark mode end -->
+  </body>
+</html>
